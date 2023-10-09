@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>ABC Tasarım Programı Kurulm ve Satış Sözleşmesi</p>
+    <fieldset style="background-color: chocolate;">
+        <legend>Sözleşme Onay</legend>
+        <form style="background-color: chocolate;"> 
+        <input type="checkbox" name="sozlesme" value="sozlesme"  >Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve onaylıyorum.
+        <br/><br/>
+        <input type="submit" value="Formu Kaydet"/>
+        <input type="reset" value="Formu Temizle"/> 
+        </form> 
+    </fieldset>
+    <fieldset style="background-color: rgb(247, 247, 250);">
+        <legend>Kişisel bilgiler</legend>
+        <form name="kullaniciKayit" style="background-color: aqua;">
+            Form Kayıt Sözleşmesi<input type="text"
+            name="sozlesme" /><br/><br/>
+             Ad<input type="text"name="ad" /><br/><br/>
+            Soyad<input type="text"name="soyad" /><br/><br/>
+            Yaş<input type="text"name="sozlesme" /><br/><br/>
+            Mail Adresi<input type="email"name="sozlesme" /><br/><br/>
+            <label  >fotoğraf ekle</label> <input type="file" name="dosya">
+        </form>
+    </fieldset>
+    <fieldset style="background-color: rgb(252, 250, 250);">
+        <legend>Diğer bilgiler</legend>
+        <form name="digerBilgiler" style="background-color: rgb(186, 119, 44);">
+            <p><strong>Buradaki alanlar mesleki deneyimi kapsar</strong></p>
+            Sektöre giriş Tarihi:<input type="date "name="dogumTarihi" required="required" /><br/><br/>
+            <label  >Sektör deneyimi</label><br/><br/>
+             <input type="radio"name="radio1" />1-5 yıl<br/><br/>
+             <input type="radio"name="radio1" />6-10 yıl<br/><br/>
+             <input type="radio"name="radio1" />11-15 yıl<br/><br/>
+             <input type="radio"name="radio1" />15 yıl üzeri<br/><br/>
+             <label>Programlama Dilleri</label><br/><br/>
+             <select name="dil" id="dil">
+                 <option value="">C#</option>
+                 <option value="">PHP</option>
+                 <option value="">JAVA</option>
+                 <option value="">Pyhton</option>
+                 <option value="">javaScript</option>
+             </select>
+        </form>
+    </fieldset>
+    <fieldset style="background-color: blueviolet;">
+        <legend>SÖZLEŞME KOPYASI</legend>
+        <form style="background-color: blueviolet;">
+            <textarea  cols="20" rows="3" tabindex="4">Metinler olarak kullanılmıştır. </textarea> <br/><br/>
+            
+        </form> 
+    </fieldset>
+    <fieldset style="background-color: rgb(241, 245, 245);">
+        <legend>Mail Listesi</legend>
+        <form name="mailliste" style="background-color:rgb(250, 253, 253); ;">
+        <input type="radio"name="radio6" />mail iletisi isityorum<br/><br/>
+             <input type="radio"name="radio7" />mail iletisi <u href="istemiyorum">istemiyorum
+        </form>
+             </a><br/><br/>
+
+
+
+    </fieldset>
+    
+    
+</body>
+</html>
