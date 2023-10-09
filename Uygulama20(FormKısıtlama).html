@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="islem1.html" autocomplete="on">
+        <input formmethod="get" placeholder="Form Metodu get|post">
+        <input formnovalidate="formnovalidate" placeholder="Veri Tip Uyumu Kontrolsüz"></br>
+        <input type="email" id="eposta" name="eposta" autocomplete="on" placeholder="Otomatik açık"> 
+        <input type="date" id="tarihmin" name="tarihmin" min="2021-05-01">
+        <inputtype="number" id="aralik" name="aralik" min="1" max="5" placeholder="max">
+        <input type="password" pattern=".{6,}" title="Altı veya daha fazla" placeholder="daha  fazla">
+        <inputtype="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder = "Şifre">
+        <inputtype="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder ="Eposta">
+        <input type="url" pattern="https?://.+" placeholder="http:// dâhil edin">
+        <input type="number" step="2" placeholder="Çift Sayı">
+</body>
+</html>
