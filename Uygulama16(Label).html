@@ -22,33 +22,24 @@
     <br/><br/>
     <hr>
     <!--Onay kutusu ekleme-->
-        <input type="checkbox" name="kutu1"
-    checked="on"/>HTML<br/><br/>
-        <input type="checkbox"
-    name="Kutu2"/>CSS<br/><br/>
-        <input type="checkbox"
-    name="Kutu3"/>Java Script
-    <br/><br/>
+    <input type="checkbox" name="Kutu1" checked="on"/>HTML<br/><br/>
+    <input type="checkbox" name="Kutu2" />JAVA Script<br/><br/>
     <hr>
-    <!--Tek seçimlik radio buton-->
-        <input type="radio"
-    name="secim"/>Evet<br/><br/>
-        <input type="radio" name="secim"/>HAYIR
-    <br/><br/>
-    <hr>
-
-    <!--Gözat dosya ekleme tuşu-->
-        <input type="file" name="dosya"/>
-
+    <!--tek seçimlik radio buton ekleme-->
+    <input type="radio"name="secim"/>EVET<br/><br/>
+    <input type="radio"name="secim"/>HAYIR<br/><br/>
+    <hr/>
+    <!--Dosya ekleme-->
+    <input type="file"name="dosya"/>
     <hr>
     <!--dropdown list-->
     <select name="iller" size="1">
-     <option value="plaka41">Bulgar</option>
-     <option value="plaka51">Niğde</option>
-     <option value="plaka34">İstanbul</option>
+        <option value="plaka54">Kocaeli</option>
+        <option value="plaka06">Ankara</option>
+        <option value="plaka34">İstanbul</option>
     </select>
     <hr>
-    <!--Listbox-->
+    <!--listbox-->
     <select name="aylar" multiple>
         <option value="1">Ocak</option>
         <option value="2">Şubat</option>
@@ -57,6 +48,35 @@
         <option value="5">Mayıs</option>
         <option value="6">Haziran</option>
     </select>
+    <hr>
+    <!--Grup Listeleme-->
+    <select name="riskharitasi" multiple>
+        <option selected value="none">Hiçbiri</option>
+        <optgroup label="Kırmızı">
+        <option value="k1">Kocaeli</option>
+         <option value="k2">Konya</option>
+         <option value="k3">Balıkesir</option>
+        </optgroup>
+        <optgroup label="Sarı">
+         <option value="s1">Eskişehir</option>
+         <option value="s2">Kırşehir</option>
+         <option value="s3">Yozgat</option>
+        </optgroup>
+        <optgroup label="Turuncu">
+         <option value="t1">Artvin</option>
+         <option value="t2">Çanakkale</option>
+         <option value="t3">Kütahya</option>
+        </optgroup>
+        <optgroup label="Mavi">
+            <option value="m1">Uşak</option>
+            <option value="m2">Batman</option>
+            <option value="m3">Ağrı</option>
+           </optgroup>
+           </select>
+           <hr>
+    
+    
+    
 
     </form>
 </body>
